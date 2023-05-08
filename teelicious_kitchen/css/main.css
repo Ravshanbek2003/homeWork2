@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+.main{
+    background-image: url(/img/flyerTosin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1080px;
+height: 1080px;
+margin: 0 auto;
+position: relative;
+}
+.section_top_text{
+    text-align: center;
+    font-family: 'Merriweather';
+font-style: normal;
+font-weight: 900;
+font-size: 58.663px;
+line-height: 74px;
+/* identical to box height */
+
+
+color: #FFCA6C;
+}
+.section_text_smal{
+    text-align: center;
+    font-family: 'Merriweather';
+font-style: italic;
+font-weight: 300;
+font-size: 50.663px;
+line-height: 64px;
+/* identical to box height */
+
+
+color: #FFCA6C;
+}
+section{
+    width: 767px;
+    height: 136px;
+    margin: 0 auto;
+}
+.footer{
+    margin: 0 auto;
+    width: 374px;
+height: 284px;
+
+
+/* alternative */
+
+border: 4.3366px solid #FFCA6C;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.footer_top{
+    
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 35px;
+
+/* alternative */
+text-align: center;
+color: #FFCA6C;
+}
+.footer ul li{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    
+    /* light */
+    
+    color: #FFF9F2;  
+}
+.blok{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    
+    width: 1080px;
+    height: 178px;
+    bottom: 400px;
+}
+.blok_child1{
+    box-sizing: border-box;
+border-left: none;
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 37px 25px;
+gap: 8px;
+
+width: 347px;
+height: 182px;
+
+/* light */
+
+background: #FFF9F2;
+/* secondary */
+
+border-top: 4px solid #D37528;
+border-right: 4px solid #D37528;
+border-bottom: 4px solid #D37528;
+border-radius: 0px 100px 100px 0px;
+}
+.blok_child2{
+   
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 29px 28px;
+
+width: 370px;
+height: 178px;
+
+/* light */
+
+background: #FFF9F2;
+/* secondary */
+
+border-top: 4px solid #D37528;
+border-left: 4px solid #D37528;
+border-bottom: 4px solid #D37528;
+border-radius: 100px 0px 0px 100px;
+}
+
+.blok_child1_text{
+    
+width: 273px;
+height: 90px;
+
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: 400;
+font-size: 24.0131px;
+line-height: 30px;
+
+/* primary */
+
+color: #210B01;
+}
+.blok_child2_text{
+    
+width: 244px;
+height: 30px;
+
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: 400;
+font-size: 24.0131px;
+line-height: 30px;
+
+/* primary */
+
+color: #210B01;
+}
