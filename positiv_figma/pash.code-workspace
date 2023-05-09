@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "../pash"
+		},
+		{
+			"path": "../bike_figma"
+		},
+		{
+			"path": "../Desktop_figma"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../position"
+		},
+		{
+			"path": "../love"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "positiv_figma"
+	}
+}
